@@ -107,14 +107,20 @@ precisaremos ser bem detalhistas, todavia agora a intenção é apenas fazer alg
 
 # Introdução
 
-A loja de moda geek, especializada em camisetas e outros produtos do universo nerd, existe há dois anos e é de propriedade de um grupo de amigos entusiastas da cultura pop. A equipe é composta por três funcionários, incluindo o gerente, um designer gráfico e um vendedor.
+A loja de moda geek é especializada em camisetas e outros produtos do universo nerd, existe há dois anos e é de propriedade de um grupo de amigos entusiastas da cultura pop. A equipe é composta por três funcionários: o gerente, um designer gráfico e um vendedor, todos dedicados a oferecer um atendimento personalizado e de qualidade aos clientes.
 
 **Situação-problema**
 
-Atualmente, a loja funciona apenas como uma loja física, com vendas presenciais limitadas à região onde está localizada. Embora tenha uma clientela fiel, a empresa não está atingindo todo o seu potencial, pois não está disponível para venda em outras localidades. Além disso, o processo de gerenciamento da loja é manual, o que torna difícil acompanhar o estoque e as vendas, e pode levar a erros de gestão.
-Nosso sistema de vendas vem através cliente, onde o cliente escolhe o produto e o leva até o caixa onde o funcionario registra o código de barras no sistema e logo após o pagamento esse produto é retirado do sistema e registrado no estoque.
-Nossos produtos são produzidos de maneira artesanal então não temos fornecedores.
+Atualmente, a loja funciona apenas como uma loja física, com vendas presenciais limitadas à região onde está localizada. Embora tenha uma clientela fiel, a empresa não está atingindo todo o seu potencial, pois não está disponível para venda em outras localidades. Além disso, o processo de gerenciamento da loja é manual, o que torna difícil acompanhar o estoque e as vendas e pode levar a erros de gestão.
+
+O nosso sistema de vendas funciona da seguinte forma: o cliente escolhe o produto e o leva até o caixa, onde o funcionário registra o código de barras no sistema. Após o pagamento, o produto é retirado do sistema e registrado no estoque. Vale destacar que nossos produtos são produzidos de maneira artesanal, então não temos fornecedores.
+
+Entretanto, para expandir os negócios e melhorar a eficiência da loja, é importante considerar a possibilidade de criação de uma loja virtual, o que permitiria atingir uma clientela maior e facilitar o gerenciamento de estoque e vendas. Com essa plataforma online, seria possível integrar os processos de venda, gerenciamento de estoque e controle de finanças, aumentando a produtividade e reduzindo o tempo gasto com tarefas manuais. Dessa forma, a loja poderia maximizar seus resultados e alcançar um novo patamar de sucesso.
 
 **Conclusão**
 
-Para resolver esses problemas, propomos a criação de uma loja virtual, que permitirá que os produtos da loja sejam vendidos para outros lugares. O software será focado em gerenciamento de estoque e vendas, permitindo que os funcionários gerenciem o inventário e rastreiem as vendas de forma mais eficiente. O software será acessível tanto para o gerente quanto para os vendedores, com diferentes níveis de acesso e permissões. Além disso, os clientes poderão acessar a loja virtual, visualizar os produtos disponíveis e fazer pedidos online, com a opção de entrega ou retirada na loja física. A loja virtual terá um layout responsivo, fácil de usar e intuitivo, e será integrada com sistemas de pagamento seguros para facilitar as transações. Com a loja virtual, a loja poderá expandir sua clientela e aumentar suas vendas, além de simplificar o processo de gerenciamento de estoque e vendas.
+Para resolver esses problemas, propomos a criação de uma loja virtual, a fim de expandir a área de vendas e facilitar o acesso aos clientes atuais. A loja virtual também ajudará no gerenciamento da loja, com um software focado em gerenciamento de estoque e vendas, permitindo que os funcionários gerenciem o inventário e rastreiem as vendas de forma mais eficiente. O software será acessível tanto para o gerente quanto para os vendedores, com diferentes níveis de acesso e permissões.
+
+Além disso, os clientes poderão acessar a loja virtual para visualizar os produtos disponíveis e fazer pedidos online, com a opção de entrega ou retirada na loja física. A loja virtual terá um layout responsivo, fácil de usar e intuitivo, além de estar integrada com sistemas de pagamento seguros para facilitar as transações.
+
+Com a loja virtual, a loja poderá expandir sua clientela e aumentar suas vendas, simplificando o processo de gerenciamento de estoque e vendas.
