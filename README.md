@@ -104,3 +104,17 @@ desejado e permita sua continuidade.
 
 Tenha em mente que essa é uma etapa relativamente breve. Não é necessário um texto gigantesco, apenas dar uma noção do funcionamento do sistema. Mais adiante
 precisaremos ser bem detalhistas, todavia agora a intenção é apenas fazer algo que permita ao cliente nos dizer se estamos no caminho certo.
+
+# Introdução
+
+A loja de moda geek, especializada em camisetas e outros produtos do universo nerd, existe há dois anos e é de propriedade de um grupo de amigos entusiastas da cultura pop. A equipe é composta por três funcionários, incluindo o gerente, um designer gráfico e um vendedor.
+
+**Situação-problema**
+
+Atualmente, a loja funciona apenas como uma loja física, com vendas presenciais limitadas à região onde está localizada. Embora tenha uma clientela fiel, a empresa não está atingindo todo o seu potencial, pois não está disponível para venda em outras localidades. Além disso, o processo de gerenciamento da loja é manual, o que torna difícil acompanhar o estoque e as vendas, e pode levar a erros de gestão.
+Nosso sistema de vendas vem através cliente, onde o cliente escolhe o produto e o leva até o caixa onde o funcionario registra o código de barras no sistema e logo após o pagamento esse produto é retirado do sistema e registrado no estoque.
+Nossos produtos são produzidos de maneira artesanal então não temos fornecedores.
+
+**Conclusão**
+
+Para resolver esses problemas, propomos a criação de uma loja virtual, que permitirá que os produtos da loja sejam vendidos para outros lugares. O software será focado em gerenciamento de estoque e vendas, permitindo que os funcionários gerenciem o inventário e rastreiem as vendas de forma mais eficiente. O software será acessível tanto para o gerente quanto para os vendedores, com diferentes níveis de acesso e permissões. Além disso, os clientes poderão acessar a loja virtual, visualizar os produtos disponíveis e fazer pedidos online, com a opção de entrega ou retirada na loja física. A loja virtual terá um layout responsivo, fácil de usar e intuitivo, e será integrada com sistemas de pagamento seguros para facilitar as transações. Com a loja virtual, a loja poderá expandir sua clientela e aumentar suas vendas, além de simplificar o processo de gerenciamento de estoque e vendas.
