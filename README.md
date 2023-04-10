@@ -124,3 +124,23 @@ Para resolver esses problemas, propomos a criação de uma loja virtual, a fim d
 Além disso, os clientes poderão acessar a loja virtual para visualizar os produtos disponíveis e fazer pedidos online, com a opção de entrega ou retirada na loja física. A loja virtual terá um layout responsivo, fácil de usar e intuitivo, além de estar integrada com sistemas de pagamento seguros para facilitar as transações.
 
 Com a loja virtual, a loja poderá expandir sua clientela e aumentar suas vendas, simplificando o processo de gerenciamento de estoque e vendas.
+
+**Regras de negócio**
+
+**RN001** - Catalogação de produtos: todos os produtos disponíveis na loja física devem ser catalogados no site da loja virtual, incluindo informações como nome, descrição, preço, fotos e estoque disponível.
+
+**RN002** - Processo de compra: os clientes podem navegar pelo site e adicionar produtos ao carrinho de compras. Eles devem ser capazes de visualizar as informações do produto e seu preço, bem como a disponibilidade de estoque. Ao finalizar a compra, o cliente deve informar seus dados pessoais e endereço para entrega ou opção de retirada na loja física.
+
+**RN003** - Pagamento: a loja virtual deve integrar com sistemas de pagamento seguros para que os clientes possam efetuar o pagamento das compras online. É importante garantir que as informações do cliente sejam protegidas e criptografadas durante todo o processo de pagamento.
+
+**RN004** - Entrega: a loja virtual deve oferecer opções de entrega, incluindo envio pelos correios ou retirada na loja física. O prazo de entrega deve ser informado ao cliente no momento da compra.
+
+**RN005** - Gerenciamento de estoque: a loja virtual deve ser integrada com um sistema de gerenciamento de estoque, permitindo que os funcionários da loja monitorem o estoque de produtos e atualizem as informações disponíveis no site. Se o produto estiver fora de estoque, o cliente deve ser notificado disso.
+
+**RN006** - Gestão financeira: a loja virtual deve ter um sistema integrado para gerenciamento financeiro, permitindo que os funcionários monitorem as vendas, receitas e despesas.
+
+**RN007** - Suporte ao cliente: a loja virtual deve ter um canal de atendimento ao cliente, para que os clientes possam tirar dúvidas e solucionar problemas relacionados às compras. 
+
+**RN008** - Cadastrar Clientes: Antes de realizar uma compra o cliente deve se cadastrar no site através do e-mail e CPF.
+
+**RN009** - Cadastrar Endereço: O cliente deve cadastrar o endereço para que o produto seja entregue pelos correios.
