@@ -109,7 +109,7 @@ precisaremos ser bem detalhistas, todavia agora a intenção é apenas fazer alg
 
 A loja de moda geek é especializada em camisetas e outros produtos do universo nerd, existe há dois anos e é de propriedade de um grupo de amigos entusiastas da cultura pop. A equipe é composta por três funcionários: o gerente, um designer gráfico e um vendedor, todos dedicados a oferecer um atendimento personalizado e de qualidade aos clientes.
 
-**Situação-problema**
+# Situação-Problema
 
 Atualmente, a loja funciona apenas como uma loja física, com vendas presenciais limitadas à região onde está localizada. Embora tenha uma clientela fiel, a empresa não está atingindo todo o seu potencial, pois não está disponível para venda em outras localidades. Além disso, o processo de gerenciamento da loja é manual, o que torna difícil acompanhar o estoque e as vendas e pode levar a erros de gestão.
 
@@ -117,7 +117,7 @@ O nosso sistema de vendas funciona da seguinte forma: o cliente escolhe o produt
 
 Entretanto, para expandir os negócios e melhorar a eficiência da loja, é importante considerar a possibilidade de criação de uma loja virtual, o que permitiria atingir uma clientela maior e facilitar o gerenciamento de estoque e vendas. Com essa plataforma online, seria possível integrar os processos de venda, gerenciamento de estoque e controle de finanças, aumentando a produtividade e reduzindo o tempo gasto com tarefas manuais. Dessa forma, a loja poderia maximizar seus resultados e alcançar um novo patamar de sucesso.
 
-**Conclusão**
+# Conclusão
 
 Para resolver esses problemas, propomos a criação de uma loja virtual, a fim de expandir a área de vendas e facilitar o acesso aos clientes atuais. A loja virtual também ajudará no gerenciamento da loja, com um software focado em gerenciamento de estoque e vendas, permitindo que os funcionários gerenciem o inventário e rastreiem as vendas de forma mais eficiente. O software será acessível tanto para o gerente quanto para os vendedores, com diferentes níveis de acesso e permissões.
 
@@ -125,7 +125,7 @@ Além disso, os clientes poderão acessar a loja virtual para visualizar os prod
 
 Com a loja virtual, a loja poderá expandir sua clientela e aumentar suas vendas, simplificando o processo de gerenciamento de estoque e vendas.
 
-**Regras de negócio**
+# Regras de Negócio
 
 **RN001** - Catalogação de produtos: todos os produtos disponíveis na loja física devem ser catalogados no site da loja virtual, incluindo informações como nome, descrição, preço, fotos e estoque disponível.
 
@@ -144,3 +144,43 @@ Com a loja virtual, a loja poderá expandir sua clientela e aumentar suas vendas
 **RN008** - Cadastrar Clientes: Antes de realizar uma compra o cliente deve se cadastrar no site através do e-mail e CPF.
 
 **RN009** - Cadastrar Endereço: O cliente deve cadastrar o endereço para que o produto seja entregue pelos correios.
+
+# Requisitos Funcionais.
+
+**RF001** - O cadastro dos funcionários no site deve ser feito pelo gerente dentro do site, cadastrando o nome e a senha.
+
+**RF002** - O acesso dos funcionários deve ser feito pelo nome e senha.
+
+**RF003** - O site deve permitir que o cliente o acesso sem a necessidade de um cadastro.
+
+**RF004** - Para realizar o cadastro o cliente deve fornecer nome completo, data de nascimento, e-mail, criar uma senha, confirmar uma senha, número de telefone, CPF, estado, cidade, bairro, rua, número da residência e CEP. (As informações de local do cliente devem estar no cadastro para que na hora de realizar a compra o cliente não precisar ter que adicionar essas informações a cada compra.)
+
+**RF005** - Para realizar uma compra o cliente deve possuir um cadastro.
+
+**RF006** - Para o cliente realizar a compra o site deve apresentar as formas de pagamento e de envio para que o cliente escolha.
+
+**RF007** - Registro de novos clientes: permitir que os clientes se cadastrem na loja virtual e criem uma conta com informações pessoais e de contato.
+
+**RF008** - Visualização de produtos: permitir que os clientes visualizem os produtos disponíveis para venda na loja virtual.
+
+**RF009** - Busca de produtos: permitir que os clientes busquem produtos específicos na loja virtual, utilizando palavras-chave ou filtros.
+
+**RF010** - Adição de produtos ao carrinho: permitir que os clientes adicionem produtos ao carrinho de compras, escolhendo a quantidade desejada.
+
+**RF011** - Remoção de produtos do carrinho: permitir que os clientes removam produtos do carrinho de compras antes de finalizar a compra.
+
+**RF012** - Finalização da compra: permitir que os clientes finalizem a compra dos produtos adicionados ao carrinho, selecionando a forma de pagamento e fornecendo informações de entrega ou retirada na loja física.
+
+**RF013** - Confirmação de compra: enviar um e-mail de confirmação para o cliente após a finalização da compra, com detalhes da compra e informações de pagamento.
+
+**RF014** - Gerenciamento de estoque: permitir que o gerente e os vendedores atualizem o estoque dos produtos vendidos na loja física e na loja virtual.
+
+**RF015** - Relatórios de vendas: gerar relatórios de vendas e estoque para auxiliar na tomada de decisões da empresa.
+
+**RF016** - Controle de acesso: permitir diferentes níveis de acesso e permissões para o gerente e os vendedores, garantindo a segurança das informações da loja.
+
+**RF017** - Integração com sistemas de pagamento: integrar a loja virtual com sistemas de pagamento seguros para garantir a proteção dos dados financeiros dos clientes.
+
+**RF018** - Contato com a equipe da loja: permitir que os clientes entrem em contato com a equipe da loja virtual, por meio de um formulário de contato ou chat online.
+
+# Requisitos Não Funcionais
