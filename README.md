@@ -184,3 +184,29 @@ Com a loja virtual, a loja poderá expandir sua clientela e aumentar suas vendas
 **RF018** - Contato com a equipe da loja: permitir que os clientes entrem em contato com a equipe da loja virtual, por meio de um formulário de contato ou chat online.
 
 # Requisitos Não Funcionais
+
+**RNF001** -O site deve ser fácil de usar e navegar para que os usuários possam encontrar rapidamente o que estão procurando. 
+
+**RNF002** -Inclui um design intuitivo, uma navegação clara e concisa e uma interface amigável.
+
+**RNF003**- O site deve carregar rapidamente para que os usuários não percam a paciência e desistam de fazer compras. 
+
+**RNF004** -Usar uma arquitetura de site otimizada, um bom servidor web e um gerenciamento eficiente do tráfego de usuários.
+
+**RNF005** -Os usuários devem sentir que suas informações pessoais e financeiras estão seguras ao fazer compras no site. 
+
+**RNF006** -Uso de tecnologias de criptografia e segurança robustas para proteger os dados dos usuários.
+
+**RNF007** -O site deve estar disponível e funcionando corretamente em todos os momentos. 
+
+**RNF008** -Garantir que o site seja hospedado em um servidor confiável e que haja backups e planos de contingência em caso de falha.
+
+**RNF009** -Confirmação de compra: enviar um e-mail de confirmação para o cliente após a finalização da compra, com detalhes da compra e informações de pagamento.
+
+**RNF010** -O site deve ser capaz de lidar com um grande volume de usuários simultaneamente. 
+
+**RNF011** -Planejamento cuidadoso da capacidade do servidor e da arquitetura do site para garantir que ele possa lidar com picos de tráfego.
+
+**RNF012** -O site deve ser acessível para pessoas com necessidades especiais, incluindo aqueles com deficiências visuais, auditivas ou motoras. 
+
+**RNF013** -Uso de tecnologias de acessibilidade, como legendas de vídeo, opções de zoom e navegação por teclado.
