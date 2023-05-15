@@ -131,7 +131,7 @@ Com a loja virtual, a loja poderá expandir sua clientela e aumentar suas vendas
 
 **RN002** - Processo de compra: os clientes podem navegar pelo site e adicionar produtos ao carrinho de compras. Eles devem ser capazes de visualizar as informações do produto e seu preço, bem como a disponibilidade de estoque. Ao finalizar a compra, o cliente deve informar seus dados pessoais e endereço para entrega ou opção de retirada na loja física.
 
-**RN003** - Pagamento: a loja virtual deve integrar com sistemas de pagamento seguros para que os clientes possam efetuar o pagamento das compras online. É importante garantir que as informações do cliente sejam protegidas e criptografadas durante todo o processo de pagamento.
+**RN003** - Pagamento: a loja virtual deve integrar com sistemas de pagamento para que os clientes possam efetuar o pagamento das compras online.
 
 **RN004** - Entrega: a loja virtual deve oferecer opções de entrega, incluindo envio pelos correios ou retirada na loja física. O prazo de entrega deve ser informado ao cliente no momento da compra.
 
@@ -139,11 +139,9 @@ Com a loja virtual, a loja poderá expandir sua clientela e aumentar suas vendas
 
 **RN006** - Gestão financeira: a loja virtual deve ter um sistema integrado para gerenciamento financeiro, permitindo que os funcionários monitorem as vendas, receitas e despesas.
 
-**RN007** - Suporte ao cliente: a loja virtual deve ter um canal de atendimento ao cliente, para que os clientes possam tirar dúvidas e solucionar problemas relacionados às compras. 
+**RN007** - Cadastrar Clientes: Antes de realizar uma compra o cliente deve se cadastrar no site através do e-mail e CPF.
 
-**RN008** - Cadastrar Clientes: Antes de realizar uma compra o cliente deve se cadastrar no site através do e-mail e CPF.
-
-**RN009** - Cadastrar Endereço: O cliente deve cadastrar o endereço para que o produto seja entregue pelos correios.
+**RN008** - Cadastrar Endereço: O cliente deve cadastrar o endereço para que o produto seja entregue pelos correios.
 
 # Requisitos Funcionais.
 
@@ -179,9 +177,7 @@ Com a loja virtual, a loja poderá expandir sua clientela e aumentar suas vendas
 
 **RF016** - Controle de acesso: permitir diferentes níveis de acesso e permissões para o gerente e os vendedores, garantindo a segurança das informações da loja.
 
-**RF017** - Integração com sistemas de pagamento: integrar a loja virtual com sistemas de pagamento seguros para garantir a proteção dos dados financeiros dos clientes.
-
-**RF018** - Contato com a equipe da loja: permitir que os clientes entrem em contato com a equipe da loja virtual, por meio de um formulário de contato ou chat online.
+**RF017** - Integração com sistemas de pagamento: integrar a loja virtual com sistemas de pagamento.
 
 # Requisitos Não Funcionais
 
@@ -191,11 +187,7 @@ Com a loja virtual, a loja poderá expandir sua clientela e aumentar suas vendas
 
 **RNF003**- O site deve carregar rapidamente para que os usuários não percam a paciência e desistam de fazer compras. 
 
-**RNF004** -Usar uma arquitetura de site otimizada, um bom servidor web e um gerenciamento eficiente do tráfego de usuários.
-
 **RNF005** -Os usuários devem sentir que suas informações pessoais e financeiras estão seguras ao fazer compras no site. 
-
-**RNF006** -Uso de tecnologias de criptografia e segurança robustas para proteger os dados dos usuários.
 
 **RNF007** -O site deve estar disponível e funcionando corretamente em todos os momentos. 
 
@@ -206,7 +198,3 @@ Com a loja virtual, a loja poderá expandir sua clientela e aumentar suas vendas
 **RNF010** -O site deve ser capaz de lidar com um grande volume de usuários simultaneamente. 
 
 **RNF011** -Planejamento cuidadoso da capacidade do servidor e da arquitetura do site para garantir que ele possa lidar com picos de tráfego.
-
-**RNF012** -O site deve ser acessível para pessoas com necessidades especiais, incluindo aqueles com deficiências visuais, auditivas ou motoras. 
-
-**RNF013** -Uso de tecnologias de acessibilidade, como legendas de vídeo, opções de zoom e navegação por teclado.
