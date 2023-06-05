@@ -43,20 +43,17 @@ Com a loja virtual, a loja poderá expandir sua clientela e aumentar suas vendas
 
 - **RN002** - Processo de compra: os clientes podem navegar pelo site e adicionar produtos ao carrinho de compras. Eles devem ser capazes de visualizar as informações do produto e seu preço, bem como a disponibilidade de estoque. 
 
-- **Finalização da compra:** Ao finalizar a compra, o cliente deve informar seus dados pessoais e endereço para entrega ou opção de retirada na loja física.
+- **RN003** Ao finalizar a compra, o cliente deve informar seus dados pessoais e endereço para entrega ou opção de retirada na loja física.
 
-- **RN003** - Pagamento: a loja virtual deve integrar com sistemas de pagamento para que os clientes possam efetuar o pagamento das compras online.
+- **RN004** - Pagamento: a loja virtual deve integrar com sistemas de pagamento para que os clientes possam efetuar o pagamento das compras online.
 
-- **RN004** - Entrega: a loja virtual deve oferecer opções de entrega, incluindo envio pelos correios ou retirada na loja física. O prazo de entrega deve ser informado ao cliente no momento da compra.
+- **RN005** - Entrega: a loja virtual deve oferecer opções de entrega, incluindo envio pelos correios ou retirada na loja física. O prazo de entrega deve ser informado ao cliente no momento da compra.
  
-- **RN005** - Gerenciamento de estoque: a loja virtual deve ser integrada com um sistema de gerenciamento de estoque, permitindo que os funcionários da loja monitorem o estoque de produtos e atualizem as informações disponíveis no site. 
- 
+- **RN006** - Gerenciamento de estoque: a loja virtual deve ser integrada com um sistema de gerenciamento de estoque, permitindo que os funcionários da loja monitorem o estoque de produtos e atualizem as informações disponíveis no site. 
 
-- Se o produto estiver fora de estoque, o cliente deve ser notificado disso.
+- **RN007** - Gestão financeira: a loja virtual deve ter um sistema integrado para gerenciamento financeiro, permitindo que os funcionários monitorem as vendas, receitas e despesas.
 
-- **RN006** - Gestão financeira: a loja virtual deve ter um sistema integrado para gerenciamento financeiro, permitindo que os funcionários monitorem as vendas, receitas e despesas.
-
-- **BLAH** - O site deve permitir que o cliente o acesso sem a necessidade de um cadastro.
+- **RN008** - O site deve permitir que o cliente o acesso sem a necessidade de um cadastro.
 
 # Requisitos Funcionais
 
@@ -64,11 +61,11 @@ Com a loja virtual, a loja poderá expandir sua clientela e aumentar suas vendas
 
 - **RF001** - O cadastro dos funcionários no site deve ser feito pelo gerente dentro do site, cadastrando o nome e a senha.
 
-**RF004** - Para realizar o cadastro o cliente deve fornecer nome completo, data de nascimento, e-mail, criar uma senha, confirmar uma senha, número de telefone, CPF, estado, cidade, bairro, rua, número da residência e CEP. (As informações de local do cliente devem estar no cadastro para que na hora de realizar a compra o cliente não precisar ter que adicionar essas informações a cada compra.)
+- **RF002** - Para realizar o cadastro o cliente deve fornecer nome completo, data de nascimento, e-mail, criar uma senha, confirmar uma senha, número de telefone, CPF, estado, cidade, bairro, rua, número da residência e CEP. (As informações de local do cliente devem estar no cadastro para que na hora de realizar a compra o cliente não precisar ter que adicionar essas informações a cada compra.)
 
 **PROCESSAMENTO**
 
-- **R.F. 01 - Autenticação de usuário:** tem como propósito autenticar o acesso ao sistema, verificando se o usuário pode acessá-lo e, caso possa, o direcionando para a página principal de seu perfil de acesso.  
+- **RF001 - Autenticação de usuário:** tem como propósito autenticar o acesso ao sistema, verificando se o usuário pode acessá-lo e, caso possa, o direcionando para a página principal de seu perfil de acesso.  
     - **Dados necessários:** login, senha, nível de permissão.
     - **Usuários:** todos os níveis de usuário.
 - **RF009** - Busca de produtos: permitir que os clientes busquem produtos específicos na loja virtual, utilizando palavras-chave ou filtros.
