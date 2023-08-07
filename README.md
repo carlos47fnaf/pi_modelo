@@ -37,21 +37,21 @@ Com a loja virtual, a loja poderá expandir sua clientela e aumentar suas vendas
 
 # Regras de Negócio
 
-- **RN001 - Catalogação de produtos:** todos os produtos disponíveis na loja física devem ser catalogados no site da loja virtual.
+- **RN001 - Catálogo de Produtos:** Todos os produtos disponíveis na loja física devem ser devidamente catalogados e listados no site da loja virtual.
 
-- **RN002 - Processo de compra:** os clientes podem navegar pelo site e adicionar produtos ao carrinho de compras. Eles devem ser capazes de visualizar as informações do produto e seu preço, bem como a disponibilidade de estoque. 
+- **RN002 - Processo de compra:** Os clientes têm a liberdade de explorar o site, adicionar produtos ao carrinho de compras e revisar informações como descrição do produto, preço e disponibilidade de estoque. 
 
-- **RN003** Ao finalizar a compra, o cliente deve informar seus dados pessoais e endereço para entrega ou opção de retirada na loja física.
+- **RN003 - Informações do Cliente:** No momento de finalizar a compra, os clientes são solicitados a fornecer seus dados pessoais e endereço para a entrega ou opção de retirada na loja física.
 
-- **RN004** - Pagamento: a loja virtual deve integrar com sistemas de pagamento para que os clientes possam efetuar o pagamento das compras online.
+- **RN004 - Pagamento:** a loja virtual deve integrar com sistemas de pagamento para que os clientes possam efetuar o pagamento das compras online.
 
-- **RN005** - Entrega: a loja virtual deve oferecer opções de entrega, incluindo envio pelos correios ou retirada na loja física. O prazo de entrega deve ser informado ao cliente no momento da compra.
+- **RN005 - Entrega:** a loja virtual deve oferecer opções de entrega, incluindo envio pelos correios ou retirada na loja física. O prazo de entrega deve ser informado ao cliente no momento da compra.
  
  FIXME: REVISAR 006 E 007
 
-- **RN006** - Gerenciamento de estoque: a loja virtual deve ser integrada com um sistema de gerenciamento de estoque, permitindo que os funcionários da loja monitorem o estoque de produtos e atualizem as informações disponíveis no site. 
+- **RN006 - Gerenciamento de estoque:** a loja virtual deve ser integrada com um sistema de gerenciamento de estoque, permitindo que os funcionários da loja monitorem o estoque de produtos e atualizem as informações disponíveis no site. 
 
-- **RN007** - Gestão financeira: a loja virtual deve ter um sistema integrado para gerenciamento financeiro, permitindo que os funcionários monitorem as vendas, receitas e despesas.
+- **RN007 - Gestão financeira:** a loja virtual deve ter um sistema integrado para gerenciamento financeiro, permitindo que os funcionários monitorem as vendas, receitas e despesas.
 
 - **RN008** - O site deve permitir que o cliente o acesso sem a necessidade de um cadastro.
 
@@ -71,12 +71,26 @@ TODO: CADASTRO DE PRODUTO
 - **RF001 - Autenticação de usuário:** tem como propósito autenticar o acesso ao sistema, verificando se o usuário pode acessá-lo e, caso possa, o direcionando para a página principal de seu perfil de acesso.  
     - **Dados necessários:** login, senha, nível de permissão.
     - **Usuários:** todos os níveis de usuário.
+  
 - **RF002 - Busca de produtos:**  permitir que os clientes busquem produtos específicos na loja virtual, utilizando palavras-chave ou filtros.
+    - **Dados necessários:** nível de permissão.
+    - **Usuários:** todos os níveis de usuário.
+   
 - **RF003 - Adição de produtos ao carrinho:**  permitir que os clientes adicionem produtos ao carrinho de compras, escolhendo a quantidade desejada.
-- **RF004 - Remoção de produtos do carrinho:**  permitir que os clientes removam produtos do carrinho de compras antes de finalizar a compra.
-- **RF005  - Finalização da compra:** permitir que os clientes  cadastrados finalizem a compra dos produtos adicionados ao carrinho, selecionando a forma de pagamento e fornecendo informações de entrega ou retirada na loja física.
-- **RF006 - Confirmação de compra:** enviar um e-mail de confirmação para o cliente após a finalização da compra, com detalhes da compra e informações de pagamento.
+    - **Dados necessários:** nível de permissão.
+    - **Usuários:** todos os níveis de usuário.
 
+- **RF004 - Remoção de produtos do carrinho:**  permitir que os clientes removam produtos do carrinho de compras antes de finalizar a compra.
+    - **Dados necessários:** nível de permissão.
+    - **Usuários:** todos os níveis de usuário.
+
+- **RF005  - Finalização da compra:** permitir que os clientes  cadastrados finalizem a compra dos produtos adicionados ao carrinho, selecionando a forma de pagamento e fornecendo informações de entrega ou retirada na loja física.
+    - **Dados necessários:** login, senha, nível de permissão.
+    - **Usuários:** todos os níveis de usuário.
+
+- **RF006 - Confirmação de compra:** enviar um e-mail de confirmação para o cliente após a finalização da compra, com detalhes da compra e informações de pagamento.
+    - **Dados necessários:** login, senha, nível de permissão.
+    - **Usuários:** todos os níveis de usuário.
 
 **SAÍDA**
 - **RF007 - Gerenciamento de estoque:** permitir que o gerente e os vendedores atualizem o estoque dos produtos vendidos na loja física e na loja virtual.
@@ -103,5 +117,8 @@ FIXME: REVISAR.
 
 **RNF009 - Capacidade e Arquitetura para Lidar com Picos de Tráfego** - Planejamento cuidadoso da capacidade do servidor e da arquitetura do site para garantir que ele possa lidar com picos de tráfego.
 
+**RNF010 - Compatibilidade em navegadores** - O site deve funcionar nos navegadores Chrome, Opera e OperaGX.
 
-TODO: NAVEGADORES, BACKEND, FRONTEND, BANCO DE DADOS, APP MÓVEL.
+**RNF011 - ** - 
+
+TODO: BACKEND, FRONTEND, BANCO DE DADOS, APP MÓVEL.
